@@ -1,9 +1,8 @@
 
 <?php include('includes/header.php') ?>
 <?php include('includes/navigation.php') ?>
-<?php include('includes/slider.php') ?>
 <?php include('includes/side-navigation.php') ?>
-
+<?php include('includes/slider.php') ?>
 
 
 
@@ -333,7 +332,7 @@
 
 
 <!-- HOW IT WORKS START-->
-<section class="hiw-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.644)) , url(web/images/banner/2.jpg);">
+<section class="hiw-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.644)) , url(images/banner/2.jpg);">
     <div class="how-it-wrks-container">
         <div class="title-header text-center">
             <p>How Does It Work!</p>
