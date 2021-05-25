@@ -13,7 +13,7 @@
 <section class="chat-section">
     <div class="chat-container">
         <div class="row">
-            <div class="col-xl-4" id="chat-left-container"> <!-- chat left start -->
+            <div class="col-xl-4" id="chat_left_container"> <!-- chat left start -->
                 <div class="chat-left-container">
                     <div class="title-header"><h4>Chats</h4></div>
                     <div class="chat-search">
@@ -159,6 +159,7 @@
                         <div class="chat-head-right">
                             <ul>
                                 <li><a href="#" id="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                <li><a href="profile.php"><i class="fa fa-info"></i></a></li>
                             </ul>
                         </div>
                     </div><!-- chat right header end -->
@@ -325,7 +326,7 @@
 
 
 
-<?php include('includes/footer.php') ?>
+<?php include('includes/script.php') ?>
 
 
 

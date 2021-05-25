@@ -1,4 +1,21 @@
 
+
+
+
+<!-- SCROLL TOP ICON START-->
+<section>
+    <div class="angle-up-container nav-links">
+        <a href="#" id="smooth_scroll_btn"><i class="fa fa-angle-up"></i></a>
+    </div>
+</section>
+<!-- SCROLL TOP ICON END-->
+
+
+
+
+
+
+
 <!-- FOOTER START-->
 <section class="footer-section">
     <div class="footer-container">
