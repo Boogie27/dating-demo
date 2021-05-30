@@ -29,7 +29,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/6.jpg" alt="" class="">
+                                            <img src="images/avatar/6.jpg" alt="" class="">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -40,7 +40,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/29.png" alt="" class="active">
+                                            <img src="images/avatar/29.png" alt="" class="active">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -51,7 +51,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/11.jpg" alt="" class="active">
+                                            <img src="images/avatar/11.jpg" alt="" class="active">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -62,7 +62,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/21.jpeg" alt="" class="">
+                                            <img src="images/avatar/21.jpeg" alt="" class="">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -73,7 +73,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/16.jpg" alt="" class="active">
+                                            <img src="images/avatar/16.jpg" alt="" class="active">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -84,7 +84,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/13.jpg" alt="" class="active">
+                                            <img src="images/avatar/13.jpg" alt="" class="active">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -95,7 +95,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/21.jpeg" alt="" class="">
+                                            <img src="images/avatar/21.jpeg" alt="" class="">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -106,7 +106,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/21.jpeg" alt="" class="">
+                                            <img src="images/avatar/21.jpeg" alt="" class="">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -117,7 +117,7 @@
                                 <a href="#"> <!-- chat message start -->
                                     <ul class="ul-chat-message">
                                         <li>
-                                            <img src="images/avartar/14.jpg" alt="" class="active">
+                                            <img src="images/avatar/14.jpg" alt="" class="active">
                                         </li>
                                         <li class="chat-msg">
                                             <h5>James alfred <span class="float-right">02:30</span></h5>
@@ -130,7 +130,7 @@
                             <div class="chat-profile-img">
                                 <ul class="ul-chat-profile-img">
                                     <li>
-                                       <a href="#"><img src="images/avartar/15.jpg" alt=""></a>
+                                       <a href="#"><img src="images/avatar/15.jpg" alt=""></a>
                                     </li>
                                     <li class="chat-profile-right">
                                        <a href="#">
@@ -149,9 +149,9 @@
                     <div class="chat-right-head"><!-- chat right header start -->
                         <div class="chat-head-left">
                             <ul>
-                                <li><a href="{{ url('/messages') }}"><i class="fa fa-arrow-left"></i></a></li>
+                                <li><a href="message.php"><i class="fa fa-arrow-left"></i></a></li>
                                 <li>
-                                    <a href="#"><img src="images/avartar/28.png" alt=""></a>
+                                    <a href="#"><img src="images/avatar/28.png" alt=""></a>
                                 </li>
                                 <li><h5>Emeka Onochie</h5></li>
                             </ul>
@@ -289,7 +289,7 @@
             <div class="video-call-container">
                 <ul class="ul-video-call">
                     <li>
-                        <img src="images/avartar/15.jpg" alt="">
+                        <img src="images/avatar/15.jpg" alt="">
                     </li>
                     <li>
                         <h4>James Jessica <span class="text-success">Video Calling...</span></h4>

@@ -9,6 +9,7 @@
     <div class="inner-title">
         <h3>DO YOU WANT TO FALL INLOVE?</h3>
         <p>Lagos match maker, the fastest way to find a partner</p>
+        <a href="{{ url('/members') }}" class="slider-inner-title">Get Started</a>
     </div>
 </div>
 

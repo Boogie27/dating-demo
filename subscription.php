@@ -90,7 +90,7 @@
 
 
 <!-- SUBSCRIPTION ALERT START -->
-<section id="sub_confirm_container">
+<section class="modal-alert-popup" id="sub_confirm_container">
     <div class="sub-confirm-container">
         <div class="sub-confirm-dark-theme">
             <div class="sub-inner-content">

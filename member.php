@@ -5,231 +5,293 @@
 
 
 
-
 <!-- MEMBERS START-->
 <section class="members-section">
      <div class="members-container">
         <div class="title-header">
-            <h4>Lagos Match Maker Members</h4>
-            <p> <a href="#">Home</a> - Members</p>
+            <h4>Lagos Match Maker <br> Members</h4>
+            <p> <a href="index.php">Home</a> - Members</p>
         </div>
-        <div class="member-search-form"> <!-- member search start -->
-            <form action="" method="GET">
-                <div class="form-group">
-                    <div class="alert-form text-danger"></div>
-                    <select class="selectpicker form-control">
-                        <option value="">I am</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <div class="alert-form text-danger"></div>
-                    <select class="selectpicker form-control">
-                        <option value="">Looking for</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                    </select>
-                </div>
-                <div class="form-group inline">
-                    <div class="alert-form text-danger"></div>
-                    <select class="selectpicker form-control">
-                        <option value="">18</option>
-                        <option value="">20</option>
-                        <option value="">25</option>
-                        <option value="">30</option>
-                        <option value="">35</option>
-                        <option value="">40</option>
-                        <option value="">45</option>
-                        <option value="">50</option>
-                        <option value="">55</option>
-                        <option value="">60</option>
-                    </select>
-                </div>
-                <div class="form-group inline">
-                    <div class="alert-form text-danger"></div>
-                    <select class="selectpicker form-control">
-                        <option value="">18</option>
-                        <option value="">20</option>
-                        <option value="">25</option>
-                        <option value="">30</option>
-                        <option value="">35</option>
-                        <option value="">40</option>
-                        <option value="">45</option>
-                        <option value="">50</option>
-                        <option value="">55</option>
-                        <option value="">60</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <div class="alert-form text-danger"></div>
-                    <input type="text" class="form-control" value="" placeholder="City">
-                </div>
-                <div class="form-group">
-                    <div class="alert-form text-danger"></div>
-                    <input type="text" class="form-control" value="" placeholder="State">
-                </div>
-                <div class="form-group">
-                    <button type="button" class="btn-fill-block"><i class="fa fa-search"></i> Search</button>
-                </div>
-            </form>
-        </div><!-- member search end -->
+        
         <div class="member-body"><!-- member body start -->
             <div class="top-members-body">
                 <div class="row">
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle active"></i>
-                                        <img src="images/avartar/3.jpg" alt="">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
+                        <div class="member-inner-div"> 
+                            <div class="member-img">
+                                <div class="member-img-img">
+                                    <a href="profile.php"><img src="images/profile-image/1.jpg" alt=""></a>
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <ul class="ul-member-anchor">
+                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
+                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="member-body-div">
+                                <ul class="ul-member-body">
+                                    <li>
+                                        <a href="#"><h4>Bamidele fatai</h4></a>
                                     </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
+                                    <li>Age: <span>26</span></li>
+                                    <li>Looking for <span>Man</span></li>
+                                    <li>Marital status: <span>Single</span></li>
+                                    <li>Date of birth: <span>2 march 2020</span></li>
+                                    <li>Location: <span>ikeja | Lagos</span></li>
+                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">basic</span></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle active"></i>
-                                        <img src="images/avartar/7.jpg" alt="">
+                    </div><!-- member end-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
+                        <div class="member-inner-div"> 
+                            <div class="member-img">
+                                <div class="member-img-img">
+                                    <a href="profile.php"><img src="images/avatar/2.jpg" alt=""></a>
+                                    <i class="fa fa-circle active"></i>
+                                </div>
+                                <ul class="ul-member-anchor">
+                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
+                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="member-body-div">
+                                <ul class="ul-member-body">
+                                    <li>
+                                        <a href="#"><h4>Bamidele fatai</h4></a>
                                     </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
+                                    <li>Age: <span>26</span></li>
+                                    <li>Looking for <span>Man</span></li>
+                                    <li>Marital status: <span>Single</span></li>
+                                    <li>Date of birth: <span>2 march 2020</span></li>
+                                    <li>Location: <span>ikeja | Lagos</span></li>
+                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle"></i>
-                                        <img src="images/avartar/10.jpg" alt="">
+                    </div><!-- member end-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
+                        <div class="member-inner-div"> 
+                            <div class="member-img">
+                                <div class="member-img-img">
+                                    <a href="profile.php"><img src="images/profile-image/2.jpg" alt=""></a>
+                                    <i class="fa fa-circle active"></i>
+                                </div>
+                                <ul class="ul-member-anchor">
+                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
+                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="member-body-div">
+                                <ul class="ul-member-body">
+                                    <li>
+                                        <a href="#"><h4>Bamidele fatai</h4></a>
                                     </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
+                                    <li>Age: <span>26</span></li>
+                                    <li>Looking for <span>Man</span></li>
+                                    <li>Marital status: <span>Single</span></li>
+                                    <li>Date of birth: <span>2 march 2020</span></li>
+                                    <li>Location: <span>ikeja | Lagos</span></li>
+                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle active"></i>
-                                        <img src="images/avartar/11.jpg" alt="">
+                    </div><!-- member end-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
+                        <div class="member-inner-div"> 
+                            <div class="member-img">
+                                <div class="member-img-img">
+                                    <a href="profile.php"><img src="images/avatar/4.jpg" alt=""></a>
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <ul class="ul-member-anchor">
+                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
+                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="member-body-div">
+                                <ul class="ul-member-body">
+                                    <li>
+                                        <a href="#"><h4>Bamidele fatai</h4></a>
                                     </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
+                                    <li>Age: <span>26</span></li>
+                                    <li>Looking for <span>Man</span></li>
+                                    <li>Marital status: <span>Single</span></li>
+                                    <li>Date of birth: <span>2 march 2020</span></li>
+                                    <li>Location: <span>ikeja | Lagos</span></li>
+                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle"></i>
-                                        <img src="images/avartar/12.jpg" alt="">
+                    </div><!-- member end-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
+                        <div class="member-inner-div"> 
+                            <div class="member-img">
+                                <div class="member-img-img">
+                                    <a href="profile.php"><img src="images/avatar/5.jpg" alt=""></a>
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <ul class="ul-member-anchor">
+                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
+                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="member-body-div">
+                                <ul class="ul-member-body">
+                                    <li>
+                                        <a href="#"><h4>Bamidele fatai</h4></a>
                                     </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
+                                    <li>Age: <span>26</span></li>
+                                    <li>Looking for <span>Man</span></li>
+                                    <li>Marital status: <span>Single</span></li>
+                                    <li>Date of birth: <span>2 march 2020</span></li>
+                                    <li>Location: <span>ikeja | Lagos</span></li>
+                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">basic</span></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle active"></i>
-                                        <img src="images/avartar/13.jpg" alt="">
+                    </div><!-- member end-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
+                        <div class="member-inner-div"> 
+                            <div class="member-img">
+                                <div class="member-img-img">
+                                    <a href="profile.php"><img src="images/avatar/6.jpg" alt=""></a>
+                                    <i class="fa fa-circle active"></i>
+                                </div>
+                                <ul class="ul-member-anchor">
+                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
+                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="member-body-div">
+                                <ul class="ul-member-body">
+                                    <li>
+                                        <a href="#"><h4>Bamidele fatai</h4></a>
                                     </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
+                                    <li>Age: <span>26</span></li>
+                                    <li>Looking for <span>Man</span></li>
+                                    <li>Marital status: <span>Single</span></li>
+                                    <li>Date of birth: <span>2 march 2020</span></li>
+                                    <li>Location: <span>ikeja | Lagos</span></li>
+                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle active"></i>
-                                        <img src="images/avartar/14.jpg" alt="">
+                    </div><!-- member end-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
+                        <div class="member-inner-div"> 
+                            <div class="member-img">
+                                <div class="member-img-img">
+                                    <a href="profile.php"><img src="images/avatar/8.jpg" alt=""></a>
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <ul class="ul-member-anchor">
+                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
+                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="member-body-div">
+                                <ul class="ul-member-body">
+                                    <li>
+                                        <a href="#"><h4>Bamidele fatai</h4></a>
                                     </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
+                                    <li>Age: <span>26</span></li>
+                                    <li>Looking for <span>Man</span></li>
+                                    <li>Marital status: <span>Single</span></li>
+                                    <li>Date of birth: <span>2 march 2020</span></li>
+                                    <li>Location: <span>ikeja | Lagos</span></li>
+                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle"></i>
-                                        <img src="images/avartar/15.jpg" alt="">
-                                    </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
-                        </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle active"></i>
-                                        <img src="images/avartar/16.jpg" alt="">
-                                    </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
-                        </div>
-                    </div><!-- new people inner start-->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6"> <!-- new people inner start-->
-                        <div class="new-people-inner">
-                            <ul>
-                                <a href="profile.php">
-                                    <li class="new-people-img">
-                                        <i class="fa fa-circle active"></i>
-                                        <img src="images/avartar/17.jpg" alt="">
-                                    </li>
-                                    <li><h4>Anonye charles</h4></li>
-                                    <li><p>Premium</p></li>
-                                </a>
-                            </ul>
-                        </div>
-                    </div><!-- new people inner start-->
+                    </div><!-- member end-->
+                </div>
+                <div class="join-us-btn top-members-btn">
+                    <a href="#" data-modal="#member_search_form_modal" class="mr-2"><i class="fa fa-search"></i> Search</a>
+                    <a href="#" class="show-all">All Members</a>
+                    <a href="#" class="middle-btn"><i class="fa fa-male"></i> Men</a>
+                    <a href="#"><i class="fa fa-female"></i> Women</a>
                 </div>
             </div>
-            <div class="join-us-btn top-members-btn">
-                <a href="#" class="show-all">All Members</a>
-                <a href="#" class="middle-btn"><i class="fa fa-male"></i>Men</a>
-                <a href="#"><i class="fa fa-female"></i>Women</a>
-            </div>
-        </div><!-- member body end -->
+        </div>
      </div>
 </section>
 <!-- MEMBERS END-->
+
+ 
+
+
+
+
+
+
+
+<?php include('modal_popup/modal-popup.php') ?>
+<?php include('modal_popup/member-search-modal-popup.php') ?>
+
 
 
 
 
 <?php include('includes/footer.php') ?>
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+// ********* OPEN VIDEO CALL **********//
+$(".video_call_open_btn").click(function(e){
+    e.preventDefault()
+    $("#video_call_section").show()
+})
+
+
+
+
+
+// ********* CLOSE VIDEO CALL ***********//
+$("#video_call_close_btn").click(function(e){
+    e.preventDefault()
+    $("#video_call_section").hide()
+})
+
+
+
+
+
+// ********* LIKE A MEMBER ***********//
+$(".profile_like_member").click(function(e){
+    e.preventDefault()
+    $("#profile_match_section").show()
+})
+
+
+
+
+
+// ********* CLOSE PROFILE MATCH ***********//
+$("#profile_match_close_btn").click(function(e){
+    e.preventDefault()
+    $("#profile_match_section").hide()
+})
+
+
+
+
+
+
+})
+</script>

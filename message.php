@@ -37,7 +37,7 @@
                     <a href="chat.php" class="message-inner-content">
                         <div class="message-img">
                         <i class="fa fa-circle active"></i>   
-                            <img src="images/avartar/10.jpg" alt="">
+                            <img src="images/avatar/10.jpg" alt="">
                         </div>
                         <ul class="ul-message">
                             <li><h5>James alfred <span class="float-right">02:30</span></h5></li>
@@ -47,7 +47,7 @@
                     <a href="chat.php" class="message-inner-content">
                         <div class="message-img">
                         <i class="fa fa-circle"></i>   
-                            <img src="images/avartar/15.jpg" alt="">
+                            <img src="images/avatar/15.jpg" alt="">
                         </div>
                         <ul class="ul-message">
                             <li><h5>James alfred <span class="float-right">02:30</span></h5></li>
@@ -57,7 +57,7 @@
                     <a href="chat.php" class="message-inner-content">
                         <div class="message-img">
                         <i class="fa fa-circle"></i>   
-                            <img src="images/avartar/7.jpg" alt="">
+                            <img src="images/avatar/7.jpg" alt="">
                         </div>
                         <ul class="ul-message">
                             <li><h5>James alfred <span class="float-right">02:30</span></h5></li>
@@ -67,7 +67,7 @@
                     <a href="chat.php" class="message-inner-content">
                         <div class="message-img">
                         <i class="fa fa-circle active"></i>   
-                            <img src="images/avartar/3.jpg" alt="">
+                            <img src="images/avatar/3.jpg" alt="">
                         </div>
                         <ul class="ul-message">
                             <li><h5>James alfred <span class="float-right">02:30</span></h5></li>
@@ -77,7 +77,7 @@
                     <a href="chat.php" class="message-inner-content">
                         <div class="message-img">
                         <i class="fa fa-circle"></i>   
-                            <img src="images/avartar/1.jpg" alt="">
+                            <img src="images/avatar/1.jpg" alt="">
                         </div>
                         <ul class="ul-message">
                             <li><h5>James alfred <span class="float-right">02:30</span></h5></li>
@@ -157,47 +157,47 @@
                         <div class="row">
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/19.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/19.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/18.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/18.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/17.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/17.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/6.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/6.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/7.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/7.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/20.png" alt=""></a>
+                                   <a href="#"><img src="images/avatar/20.png" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/3.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/3.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/1.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/1.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/2.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/2.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                         </div>

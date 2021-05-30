@@ -10,7 +10,8 @@
         <div class="profile-banner" style="background-image: url(images/banner/1.jpg)">
             <div class="profile-inner-banner">
                 <div class="profile-img">
-                    <img src="images/avartar/15.jpg" alt="">
+                    <img src="images/avatar/15.jpg" id="profile_image_img" alt="">
+                    <a href="#" id="profile_img_upload_btn" class="p-img-upload-btn"><i class="fa fa-camera"></i></a>
                 </div>
                 <div class="profile-banner-body">
                     <div class="title-header text-center">
@@ -232,47 +233,47 @@
                         <div class="row">
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/19.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/19.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/18.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/18.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/17.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/17.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/6.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/6.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/7.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/7.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/20.png" alt=""></a>
+                                   <a href="#"><img src="images/avatar/20.png" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/3.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/3.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/1.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/1.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
                                 <div class="like-content">
-                                   <a href="#"><img src="images/avartar/2.jpg" alt=""></a>
+                                   <a href="#"><img src="images/avatar/2.jpg" alt=""></a>
                                 </div>
                             </div><!-- like end-->
                         </div>
@@ -296,7 +297,7 @@
             <div class="video-call-container">
                 <ul class="ul-video-call">
                     <li>
-                        <img src="images/avartar/15.jpg" alt="">
+                        <img src="images/avatar/15.jpg" alt="">
                     </li>
                     <li>
                         <h4>James Jessica <span class="text-success">Video Calling...</span></h4>
@@ -339,11 +340,11 @@
                                 <li><p>Age: 25</p></li>
                                 <li><p><i class="fa fa-map-marker-alt"></i> Lagos</p></li>
                             </ul>
-                            <img src="images/avartar/15.jpg" alt="">
+                            <img src="images/avatar/15.jpg" alt="">
                         </li>
                         <li><i class="fa fa-heart"></i></li>
                         <li class="profile-one">
-                            <img src="images/avartar/28.png" alt="">
+                            <img src="images/avatar/28.png" alt="">
                             <ul class="profile-two-content">
                                 <li><h4>Emeka Ezeugo</h4></li>
                                 <li><p>Age: 30</p></li>
@@ -368,6 +369,8 @@
 
 
 
+
+<?php  include('profile/profile-image-modal-popup.php') ?>
 
 
 
@@ -411,6 +414,33 @@ $("#profile_match_close_btn").click(function(e){
     e.preventDefault()
     $("#profile_match_section").hide()
 })
+
+
+
+
+
+
+
+// ******** OPEN AVATAR MODAL ************//
+$("#profile_img_upload_btn").click(function(e){
+    e.preventDefault()
+    $("#avatar_popup_section").show()
+})
+
+
+
+
+
+//******* CLOSE FORM MODAL ******/
+$('.modal-btn-close').click(function(e){
+    e.preventDefault()
+    $('.modal-popup-container').hide()
+})
+
+
+
+
+
 
 
 

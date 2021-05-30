@@ -173,6 +173,49 @@ $(document).ready(function(){
     
     
     
+
+
+//******* CLOSE FORM MODAL ******/
+$(window).click(function(e){
+    if($(e.target).hasClass('dark-theme-modal-popup')){
+        $('.modal-alert-popup').hide()
+    }
+})
+
+
+
+
+
+
+
+
+
+// *********** OPEN MODAL POPUP *************//
+$(window).click(function(e){
+    if($(e.target).attr('data-modal'))
+    {
+        e.preventDefault()
+        var id = $(e.target).attr('data-modal');
+        $(id).show()
+    }
+})
+
+
+
+
+
+// ********* CLOSE SUBSCRIPTION CONFIRM BOX *********//
+$(".confirm-box-close").click(function(e){
+    e.preventDefault()
+    $(".modal-alert-popup").hide()
+})
+
+
+
+
+
+
+
     
         // end of document
     });
