@@ -124,14 +124,15 @@ button:focus{
     justify-content: space-between;
 }
 .nav-inner .nav-left{
-    color:  rgb(228, 154, 17);
+    color: rgb(196, 142, 44);
 }
+
 .nav-content{
     width: 70%;
     margin: 0 auto;
 }
 ul.ul-nav-right li{
-    color:  rgb(228, 154, 17);
+    color: rgb(196, 142, 44);
     margin-left: 10px;
     display: inline-block;
 }
@@ -139,14 +140,14 @@ ul.ul-nav-right{
     padding: 20px 0px;
 }
 ul.ul-nav-right li a{
-    color:  rgb(228, 154, 17);
+    color: rgb(196, 142, 44);
     font-size: 12px;
     cursor: pointer;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 ul.ul-nav-right li a:hover{
-    color: rgb(228, 154, 17);
+    color:rgb(196, 142, 44);
 }
 ul.ul-nav-right{
     text-align: right;
@@ -158,29 +159,29 @@ ul li a.nav-login{
 ul li a.nav-login, ul li a.nav-signup{
     font-size: 14px;
     padding: 10px 15px;
-    color: rgb(228, 154, 17);
+    color: rgb(196, 142, 44);
     background-color: #fff;
 }
 ul li a.nav-signup{
     color: #fff;
-    background-color: rgb(228, 154, 17);
+    background-color: rgb(196, 142, 44);
 }
 ul li a.nav-signup:hover{
-    color: rgb(228, 154, 17);
+    color: rgb(196, 142, 44);
 }
 ul.nav-right-small{
     text-align: right;
     padding: 20px 0px;
 }
 ul.nav-right-small li a{
-    color: rgb(228, 154, 17);
+    color: rgb(196, 142, 44);
     font-size: 20px;
 }
 .inner-nav-mobile{
     display: none;
 }
 .inner-nav-mobile h4{
-    color: rgb(228, 154, 17);
+    color: rgb(196, 142, 44);
 }
 @media only screen and (max-width: 1125px){
     .nav-content{
@@ -398,7 +399,8 @@ a.slider-inner-title{
     height: 100vh;
     position: fixed;
     transition: left 0.2s ease;
-    background-color:  rgba(255, 180, 41, 0.863);
+    background-color: rgba(196, 143, 44, 0.877);
+    /* background-color:  rgba(255, 180, 41, 0.863); */
 }
 .side-nav-btn-container{
     text-align: right;
@@ -460,7 +462,7 @@ ul.ul-side-nav li a{
     margin: 0 auto;
     position: relative;
     border-radius: 50%;
-    border: 3px solid   rgb(248, 179, 50);
+    border: 3px solid   rgb(196, 142, 44);
     border-right: 3px solid transparent;
     -webkit-animation: main-spin 0.4s linear infinite; 
     animation: main-spin 0.4s linear infinite;
@@ -510,7 +512,7 @@ ul.ul-side-nav li a{
     position: relative;
     margin: 0 auto;
     border-radius: 50%;
-    border: 3px solid rgb(248, 179, 50);
+    border: 3px solid rgb(196, 142, 44);
     border-right: 3px solid transparent;
     -webkit-animation: access-spin 0.4s linear infinite; 
     animation: access-spin 0.4s linear infinite;
@@ -663,7 +665,7 @@ ul.ul-logout li p{
     border: 2px solid transparent;
 }
 .avatar-img img:hover{
-    border: 2px solid rgb(248, 179, 50);
+    border: 2px solid rgb(196, 142, 44);
 }
 .avatar-img-preview{
     text-align: center;
@@ -687,7 +689,7 @@ ul.ul-logout li p{
     text-decoration: none;
 }
 .avatar-btn a.accept{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 @media only screen and (max-width: 1125px){
     .avatar-inner-content{
@@ -757,7 +759,7 @@ ul.ul-logout li p{
 }
 .new-people-header p{
     font-size: 12px;
-    color:  rgb(248, 179, 50);
+    color:  rgb(196, 142, 44);
 }
 .new-people-body{
     margin-top: 50px;
@@ -787,7 +789,7 @@ ul li.new-people-img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid  rgb(248, 179, 50);
+    border: 2px solid  rgb(196, 142, 44);
 }
 .new-people-inner ul a{
     text-decoration: none;
@@ -799,7 +801,7 @@ ul li.new-people-img{
     color: rgb(250, 34, 34);
     position: absolute;
     border-radius: 50%;
-    border: 2px solid  rgb(248, 179, 50);
+    border: 2px solid  rgb(196, 142, 44);
 }
 .new-people-img i.active{
     color: rgb(57, 236, 57);
@@ -814,12 +816,12 @@ ul li.new-people-img{
     padding: 0px 5px;
 }
 .new-people-inner ul li p{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     font-size: 10px;
     text-align: center;
 }
 .new-people-inner ul li h4:hover{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 .join-us-btn, .top-members-btn{
     margin-top: 50px;
@@ -829,20 +831,20 @@ ul li.new-people-img{
     padding: 8px 30px;
     font-size: 13px;
     text-decoration: none;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     transition: all 0.2s ease;
-    border: 1px solid rgb(248, 179, 50);
+    border: 1px solid rgb(196, 142, 44);
 }
 .join-us-btn a:hover, .top-members-btn a:hover{
     color: #fff;
-    background-color: rgb(248, 179, 50);
+    background-color: rgb(196, 142, 44);
 }
 .top-members-btn a i{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 a.show-all{
     color: #fff;
-    background-color: rgb(248, 179, 50);
+    background-color: rgb(196, 142, 44);
 }
 a.show-all:hover{
     background-color: rgb(245, 160, 2);
@@ -864,13 +866,13 @@ a.show-all:hover{
         padding: 0px;
     }
     a.show-all{
-        color:rgb(248, 179, 50);
+        color:rgb(196, 142, 44);
         background-color: transparent;
     }
     a.middle-btn{
         padding: 0px 5px;
-        border-right: 1px solid rgb(248, 179, 50);
-        border-left: 1px solid rgb(248, 179, 50);
+        border-right: 1px solid rgb(196, 142, 44);
+        border-left: 1px solid rgb(196, 142, 44);
     }
 }
 @media only screen and (max-width: 398px){
@@ -896,7 +898,7 @@ a.show-all:hover{
 }
 .title-header p{
     font-size: 12px;
-    color:  rgb(248, 179, 50);
+    color:  rgb(196, 142, 44);
 }
 .about-inner-body{
     margin-top: 50px;
@@ -981,12 +983,12 @@ ul.ul-how-it-work li img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid rgb(248, 179, 50);
+    border: 2px solid rgb(196, 142, 44);
 }
 ul.ul-how-it-work li h4{
     font-size: 17px;
     margin-top: 10px;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 ul.ul-how-it-work li p{
     font-size: 11px;
@@ -1032,7 +1034,7 @@ ul.ul-footer-about li img{
 }
 ul.ul-footer-about li h4, ul.ul-footer-links h4{
     margin-bottom: 20px;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 ul.ul-footer-about li p{
     color: #fff;
@@ -1042,12 +1044,13 @@ ul.ul-footer-about li p{
 .news-letter-btn{
     color: #fff;
     padding: 10px 30px;
-    border: 1px solid rgb(248, 179, 50);
-    background-color: rgb(248, 179, 50);
+    transition: background-color 0.2s ease;
+    border: 1px solid rgb(196, 142, 44);
+    background-color: rgb(196, 142, 44);
 }
 .news-letter-btn:hover{
     border: 1px solid rgb(253, 201, 104);
-    background-color: rgb(250, 164, 3);
+    background-color: rgb(223, 163, 53);
 }
 ul.ul-footer-links li.footer-link-h{
     padding-top: 0px;
@@ -1063,12 +1066,12 @@ ul.ul-footer-links li{
     padding: 8px 0px;
 }
 ul.ul-footer-links li a:hover{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 ul.ul-footer-links li a i{
     font-size: 16px;
     margin-right: 10px;
-    color:  rgb(248, 179, 50);
+    color:  rgb(196, 142, 44);
 }
 .footer-rights {
     color: #fff;
@@ -1089,7 +1092,7 @@ ul.ul-footer-links li a i{
 }
 .footer-content form input:focus{
     box-shadow: none;
-    color:  rgb(248, 179, 50);
+    color:  rgb(196, 142, 44);
 }
 @media only screen and (max-width: 567px){
     ul.ul-footer-about li img{
@@ -1114,7 +1117,7 @@ ul.ul-footer-links li a i{
    position: fixed;
    right: 20px;
    bottom: 45px;
-   background-color:  rgb(253, 166, 5);
+   background-color:  rgb(196, 142, 44);
    color: #fff;
    padding: 11px 15px;
    border-radius: 10px;
@@ -1168,7 +1171,7 @@ ul.ul-footer-links li a i{
     color: #fff;
 }
 .form-container .title-header p a{
-    color:  rgb(253, 166, 5);
+    color:  rgb(196, 142, 44);
 }
 @media only screen and (max-width: 1125px){
     .form-container form{
@@ -1236,7 +1239,7 @@ ul.ul-footer-links li a i{
     height: 220px;
     position: relative;
     background-color: #ccc;
-    border: 2px solid rgb(253, 166, 5);
+    border: 2px solid rgb(196, 142, 44);
 }
 .profile-img a.p-img-upload-btn{
     bottom: 0px;
@@ -1283,7 +1286,7 @@ ul.ul-footer-links li a i{
     transition: color 0.2s ease;
 }
 .profile-banner-body ul li a:hover{
-    color: rgb(253, 166, 5);
+    color: rgb(196, 142, 44);
 }
 
 .profile-banner-body ul li a i{
@@ -1304,7 +1307,7 @@ ul.ul-p-option-body{
     padding: 20px 10px;
     border-radius: 20px 20px 0px 0px;
     justify-content: space-between;
-    background-color:  rgb(230, 151, 4);
+    background-color:  rgb(196, 142, 44);
 }
 ul.ul-p-option-body li a{
    color: #fff;
@@ -1436,7 +1439,7 @@ ul.ul-p-option-body li a:hover{
 .profile-detail-left .title-header h4, .profile-detail-left .title-header a{
     font-size: 14px;
     text-decoration: none;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 ul.ul-profile-detail{
     padding: 20px 10px;
@@ -1467,7 +1470,7 @@ ul.ul-profile-detail li p.detail-about-p{
 .profile-detail-right .title-header h4{
     font-size: 14px;
     padding: 15px 10px;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     border-bottom: 1px solid rgb(24, 24, 24);
 }
 .profile-right-form{
@@ -1492,7 +1495,7 @@ ul.ul-profile-detail li p.detail-about-p{
     border-bottom: 1px solid rgb(173, 172, 172);
 }
 .profile-right-form input:focus{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 .profile-right-form .btn-light:not(:disabled):not(.disabled):active, 
 .profile-right-form .show>.btn-light.dropdown-toggle {
@@ -1538,7 +1541,7 @@ ul.ul-profile-detail li p.detail-about-p{
 .you-may-like .title-header h4{
     font-size: 14px;
     padding: 15px 10px;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     border-bottom: 1px solid rgb(24, 24, 24);
 }
 .you-may-like-body{
@@ -1632,7 +1635,7 @@ ul.ul-member-anchor li a{
     font-size: 20px;
     padding: 5px 8px;
     border-radius: 4px;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     transition:  background-color 0.2s ease;
 }
 ul.ul-member-anchor li a:hover{
@@ -1749,7 +1752,7 @@ ul.ul-member-body li span{
 .message-form form input:focus{
     border: none;
     box-shadow: none;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     background-color:  rgb(19, 19, 19);
 }
 .message-form form button{
@@ -1817,7 +1820,7 @@ ul.ul-message li p{
 ul.ul-message li p span{
     padding: 1px 3px;
     border-radius: 5px;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     background-color:  rgba(248, 161, 0, 0.39);
 }
 @media only screen and (max-width: 1125px){
@@ -1905,7 +1908,7 @@ ul.ul-video-call li img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid rgb(248, 179, 50);
+    border: 2px solid rgb(196, 142, 44);
 }
 .video-call-container{
     width: 450px;
@@ -1913,7 +1916,7 @@ ul.ul-video-call li img{
     margin: 0 auto;
     border-radius: 10px;
     background-color:  rgb(32, 32, 32);
-    /* background-color:  rgb(248, 179, 50); */
+    /* background-color:  rgb(196, 142, 44); */
 }
 ul.ul-video-call li h4{
     font-size: 20px;
@@ -2310,7 +2313,7 @@ ul.profile-two-content{
 .chat-search-body input:focus{
     border: none;
     box-shadow: none;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     background-color:  rgb(49, 49, 49);
 }
 .chat-search-body button{
@@ -2378,7 +2381,7 @@ ul.ul-chat-message li span{
 ul.ul-chat-message li p span{
     padding: 1px 3px;
     border-radius: 5px;
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
     background-color:  rgba(248, 161, 0, 0.39);
 }
 .chat-profile-img{
@@ -2465,7 +2468,7 @@ ul.ul-chat-profile-img li.chat-profile-right{
     background-color: rgb(87, 87, 87);   
 }
 .chat-head-right ul li a:hover{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 .chating-body{
     height: 480px;
@@ -2490,7 +2493,7 @@ ul.ul-chat-profile-img li.chat-profile-right{
     background-color:  rgb(49, 49, 49);
 }
 .chat-right-form form .chat-input input:focus{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 .chat-right-form form .chat-input button{
     border: none;
@@ -2503,7 +2506,7 @@ ul.ul-chat-profile-img li.chat-profile-right{
     background-color:  rgb(58, 58, 58);
 }
 .chat-right-form form .chat-input button:hover{
-    color: rgb(248, 179, 50);
+    color: rgb(196, 142, 44);
 }
 ul.ul-chat-files li{
     display: inline-block;
@@ -2539,7 +2542,7 @@ ul.ul-left-chatting li.chatting-p{
     position: relative;
     border-radius: 3px;
     display: inline-block;
-    background-color:  rgb(248, 179, 50);
+    background-color:  rgb(196, 142, 44);
 }
 ul.ul-left-chatting li.chatting-p p{
     margin: 0px;
@@ -2553,7 +2556,7 @@ ul.ul-left-chatting li.chatting-p::before{
     position: absolute;
     bottom: -7px;
     left: 0px;
-    border: 10px solid  rgb(248, 179, 50);
+    border: 10px solid  rgb(196, 142, 44);
     border-top: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid transparent;
@@ -2865,7 +2868,7 @@ ul.ul-right-chatting li.chat-time{
     background-color: transparent;
 }
 .btn-close-container button{
-    color:  rgb(248, 179, 50);
+    color:  rgb(196, 142, 44);
 }
 .btn-close-container button:hover{
     color: rgb(163, 121, 41);

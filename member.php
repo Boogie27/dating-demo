@@ -39,7 +39,7 @@
                                     <li>Marital status: <span>Single</span></li>
                                     <li>Date of birth: <span>2 march 2020</span></li>
                                     <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">basic</span></li>
+                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">basic</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                                     <li>Marital status: <span>Single</span></li>
                                     <li>Date of birth: <span>2 march 2020</span></li>
                                     <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                     <li>Marital status: <span>Single</span></li>
                                     <li>Date of birth: <span>2 march 2020</span></li>
                                     <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                                     <li>Marital status: <span>Single</span></li>
                                     <li>Date of birth: <span>2 march 2020</span></li>
                                     <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                                     <li>Marital status: <span>Single</span></li>
                                     <li>Date of birth: <span>2 march 2020</span></li>
                                     <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">basic</span></li>
+                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">basic</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                                     <li>Marital status: <span>Single</span></li>
                                     <li>Date of birth: <span>2 march 2020</span></li>
                                     <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -207,7 +207,7 @@
                                     <li>Marital status: <span>Single</span></li>
                                     <li>Date of birth: <span>2 march 2020</span></li>
                                     <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(248, 179, 50);">premium</span></li>
+                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
                                 </ul>
                             </div>
                         </div>
