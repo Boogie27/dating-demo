@@ -9,7 +9,7 @@
     <div class="inner-title">
         <h3>DO YOU WANT TO FALL INLOVE?</h3>
         <p>Lagos match maker, the fastest way to find a partner</p>
-        <a href="member.php" class="slider-inner-title">Get Started</a>
+        <a href="premium.php" class="slider-inner-title">Get Started</a>
     </div>
 </div>
 
@@ -79,11 +79,80 @@
                     </div>
                 </div> 
                 <div class="col-lg-12">
-                    <div class="form-group flex">
-                        <label for="">City: </label>
-                        <input type="text" name="city" class="form-control" value="" placeholder="Your city name">
-                    </div>
-                </div> 
+                   <div class="row">
+                       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="form-group">
+                                <select class="selectpicker form-control">
+                                    <option value="">Select Genotype</option>
+                                    <option value="">AA</option>
+                                    <option value="">AB</option>
+                                    <option value="">AS</option>
+                                    <option value="">BB</option>
+                                    <option value="">BA</option>
+                                    <option value="">OO</option>
+                                </select>
+                            </div>
+                       </div>
+                       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="form-group">
+                                <select class="selectpicker form-control">
+                                    <option value="">Marital status</option>
+                                    <option value="">Single</option>
+                                    <option value="">Divorced</option>
+                                    <option value="">Widowed</option>
+                                </select>
+                            </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-lg-12">
+                   <div class="row">
+                       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="form-group">
+                                <select class="selectpicker form-control">
+                                    <option value="">Membership level</option>
+                                    <option value="">Basic</option>
+                                    <option value="">Premium</option>
+                                </select>
+                            </div>
+                       </div>
+                       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="form-group">
+                                <input type="text" class="form-control" value="" placeholder="Name">
+                            </div>
+                       </div>
+                   </div>
+                </div>  
+                <div class="col-lg-12">
+                   <div class="row">
+                       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="form-group">
+                                <select class="selectpicker form-control">
+                                    <option value="">Select religion</option>
+                                    <option value="">Christain</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Hindu</option>
+                                </select>
+                            </div>
+                       </div>
+                       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="form-group">
+                                <select class="selectpicker form-control">
+                                    <option value="">Select location</option>
+                                    <option value="">Lagos</option>
+                                    <option value="">Abuja</option>
+                                    <option value="">Benin</option>
+                                    <option value="">Jos</option>
+                                    <option value="">Anambra</option>
+                                    <option value="">Imo</option>
+                                    <option value="">Enugu</option>
+                                    <option value="">Bauchi</option>
+                                    <option value="">Kano</option>
+                                </select>
+                            </div>
+                       </div>
+                   </div>
+                </div>
                 <div class="col-lg-12">
                     <div class="form-group flex">
                         <button type="button" name="find_partner" class="btn-fill btn-block">Find you partner</button>

@@ -366,6 +366,7 @@ $("#video_call_close_btn").click(function(e){
 $(window).click(function(e){
     $('ul.ul-option-body').hide()
     if($(e.target).hasClass('fa fa-ellipsis-v') || $(e.target).hasClass('ul-option-body')){
+        e.preventDefault()
         $(e.target).parent().children('ul.ul-option-body').toggle()
     }
     

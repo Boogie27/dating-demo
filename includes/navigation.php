@@ -8,7 +8,15 @@
                 <div class="nav-right">
                     <ul class="ul-nav-right">
                         <li><a href="index.php">HOME</a></li>
-                        <li><a href="member.php">MEMBERS</a></li>
+                        <li>
+                            <div class="data-drop-down drop-down">
+                                <a href="#" class="drop-down-btn">MEMBERS</a>
+                                <ul class="ul-drop-down">
+                                    <li><a href="basic.php">Basic</a></li>
+                                    <li><a href="premium.php">Premium</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li><a href="subscription.php">SUBSCRIPTION</a></li>
                         <li><a href="message.php"><i class="far fa-envelope"></i></a></li>
                         <li>

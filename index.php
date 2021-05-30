@@ -6,7 +6,7 @@
 
 
 
-
+<div class="home-empty-content"></div>
 
 
 

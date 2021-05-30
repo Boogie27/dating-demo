@@ -217,6 +217,17 @@ $(".confirm-box-close").click(function(e){
 
 
 
+// *********** DROP DOWN BOX ****************//
+$(window).click(function(e){
+    $('ul.ul-drop-down').hide()
+    if($(e.target).hasClass('drop-down-btn') || $(e.target).hasClass('ul-drop-down')){
+        e.preventDefault()
+        $(e.target).parent().children('ul.ul-drop-down').toggle()
+    }
+    
+})
+
+
     
         // end of document
     });

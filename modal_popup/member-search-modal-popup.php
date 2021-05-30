@@ -116,17 +116,21 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-xl-12">
                                 <div class="form-group">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" value="" placeholder="City">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" value="" placeholder="State">
+                                        <select class="selectpicker form-control">
+                                            <option value="">Select location</option>
+                                            <option value="">Lagos</option>
+                                            <option value="">Abuja</option>
+                                            <option value="">Benin</option>
+                                            <option value="">Jos</option>
+                                            <option value="">Anambra</option>
+                                            <option value="">Imo</option>
+                                            <option value="">Enugu</option>
+                                            <option value="">Bauchi</option>
+                                            <option value="">Kano</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>

@@ -6,7 +6,8 @@
         </div>
         <ul class="ul-side-nav">
             <li><a href="index.php">Home</a></li>
-            <li><a href="member.php">Members</a></li>
+            <li><a href="basic.php">Basic members</a></li>
+            <li><a href="premium.php">Premium members</a></li>
             <li><a href="message.php">Messages</a></li>
             <li><a href="subscription.php">Subscribe</a></li>
             <li><a href="#">Contact</a></li>
