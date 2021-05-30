@@ -197,6 +197,7 @@ $(window).click(function(e){
         e.preventDefault()
         var id = $(e.target).attr('data-modal');
         $(id).show()
+       
     }
 })
 

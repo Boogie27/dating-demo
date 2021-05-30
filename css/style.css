@@ -115,7 +115,7 @@ button:focus{
     width: 100%;
     z-index: 20;
     padding: 0px 20px;
-    position: fixed;
+    position: absolute;
     background-color: rgba(10, 10, 10, 0.692);
 }
 .nav-inner{
@@ -2924,6 +2924,11 @@ ul.ul-right-chatting li.chat-time{
 @media only screen and (max-width: 767px){
     .edit-info-container{
         width: 100%;
+        height: 500px;
+        overflow-y: scroll;
+    }
+    .edit-info-container::-webkit-scrollbar{
+        width: 0px;
     }
 }
 @media only screen and (max-width: 567px){

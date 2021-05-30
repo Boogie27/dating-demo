@@ -39,7 +39,10 @@
         <div class="row">
             <div class="col-xl-8 col-lg-8"><!-- profile detail left end-->
                 <div class="profile-detail-left">
-                    <div class="title-header"><h4>Detail info</h4></div>
+                    <div class="title-header">
+                        <h4>Detail info</h4>
+                        <a href="#" id="detail_info_edit_btn_open"><i class="fa fa-pen"></i></a>
+                    </div>
                     <ul class="ul-profile-detail">
                         <li>
                             <div class="title">Name  </div>
@@ -80,7 +83,10 @@
                     </ul>
                 </div>
                 <div class="profile-detail-left">
-                    <div class="title-header"><h4>About me</h4></div>
+                    <div class="title-header">
+                        <h4>About me</h4>
+                        <a href="#" id="about_me_edit_btn_open"><i class="fa fa-pen"></i></a>
+                    </div>
                     <ul class="ul-profile-detail">
                         <li>
                             <p class="detail-about-p">
@@ -98,7 +104,10 @@
                     </ul>
                 </div>
                 <div class="profile-detail-left">
-                    <div class="title-header"><h4>Looking for</h4></div>
+                    <div class="title-header">
+                        <h4>Looking for</h4>
+                        <a href="#" id="looking_for_btn_open"><i class="fa fa-pen"></i></a>
+                    </div>
                     <ul class="ul-profile-detail">
                         <li>
                             <p class="detail-about-p">
@@ -108,7 +117,10 @@
                     </ul>
                 </div>
                 <div class="profile-detail-left">
-                    <div class="title-header"><h4>Lifestyle</h4></div>
+                    <div class="title-header">
+                        <h4>Lifestyle</h4>
+                        <a href="#" id="detail_lifestyle_btn_open"><i class="fa fa-pen"></i></a>
+                    </div>
                     <ul class="ul-profile-detail">
                         <li>
                             <div class="title">Interest  </div>
@@ -133,7 +145,10 @@
                     </ul>
                 </div>
                 <div class="profile-detail-left">
-                    <div class="title-header"><h4>Physical info</h4></div>
+                    <div class="title-header">
+                        <h4>Physical info</h4>
+                        <a href="#" id="detail_physical_info_btn_open"><i class="fa fa-pen"></i></a>
+                    </div>
                     <ul class="ul-profile-detail">
                         <li>
                             <div class="title">Height  </div>
@@ -164,7 +179,9 @@
             </div> <!-- profile detail left end-->
             <div class="col-xl-4 col-lg-4"> <!-- profile detail right start-->
                 <div class="profile-detail-right">
-                    <div class="title-header"><h4>Filter Search Members</h4></div>
+                    <div class="title-header">
+                        <h4>Filter Search Members</h4>
+                    </div>
                     <div class="profile-right-form">
                         <p>Serious dating with Lagos match maker Yourperfect match is just a click away</p>
                         <form action="" method="POST">
@@ -371,6 +388,11 @@
 
 
 <?php  include('profile/profile-image-modal-popup.php') ?>
+<?php  include('profile/profile-about-modal-popup.php') ?>
+<?php  include('profile/profile-lifestyle-modal-popup.php') ?>
+<?php  include('profile/profile-looking-for-modal-popup.php') ?>
+<?php  include('profile/profile-physical-info-modal-popup.php') ?>
+<?php  include('profile/profile-detail-info-modal-popup.php') ?>
 
 
 
@@ -439,6 +461,70 @@ $('.modal-btn-close').click(function(e){
 
 
 
+
+// ********* EDIT DEATIL INFO ***********//
+$("#detail_info_edit_btn_open").click(function(e){
+    e.preventDefault()
+    $("#edit_detail_info_section").show()
+})
+
+
+
+
+
+// ********* OPEN ABOUT ME MODAL ***********//
+$("#about_me_edit_btn_open").click(function(e){
+    e.preventDefault()
+    $("#about_me_edit_btn_modal").show()
+})
+
+
+
+
+// ********* OPEN LOOKINF FOR MODAL ***********//
+$("#looking_for_btn_open").click(function(e){
+    e.preventDefault()
+    $("#looking_for_modal_popup").show()
+})
+
+
+
+// ********* OPEN LIFSTYLE MODAL ***********//
+$("#detail_lifestyle_btn_open").click(function(e){
+    e.preventDefault()
+    $("#lifestyle_modal_popup").show()
+})
+
+
+
+
+// ********* OPEN PHYSICAL MODAL ***********//
+$("#detail_physical_info_btn_open").click(function(e){
+    e.preventDefault()
+    $("#physical_info_modal_popup").show()
+})
+
+
+
+
+
+//******* CLOSE FORM MODAL ******/
+$('.modal-btn-close').click(function(e){
+    e.preventDefault()
+    $('.modal-popup-container').hide()
+})
+
+
+
+
+
+
+//******* CLOSE FORM MODAL ******/
+$(window).click(function(e){
+    if($(e.target).hasClass('dark-theme-modal-popup')){
+        $('.modal-popup-container').hide()
+    }
+})
 
 
 
