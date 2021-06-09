@@ -3,7 +3,7 @@
         <div class="nav-content">
             <div class="nav-inner"><!-- NAVIGATION DESKTOP START -->
                 <div class="nav-left">
-                    <h4>Logo here</h4>
+                    <img src="images/icons/logo.png" alt="logo" class="app-logo">
                 </div>
                 <div class="nav-right">
                     <ul class="ul-nav-right">
@@ -68,7 +68,7 @@
             </div><!-- NAVIGATION DESKTOP END -->
             <div class="inner-nav-mobile"> <!-- NAVIGATION MOBILE START -->
                 <div class="nav-left-mobile">
-                    <h4>Logo</h4>
+                    <img src="images/icons/logo.png" alt="logo" class="app-logo">
                 </div>
                 <div class="nav-right-mobile">
                     <ul class="nav-right-small">

@@ -125,9 +125,12 @@ button:focus{
     justify-content: space-between;
 }
 .nav-inner .nav-left{
+    padding: 5px 0px;
     color: rgb(196, 142, 44);
 }
-
+.app-logo{
+    width: 200px;
+}
 .nav-content{
     width: 90%;
     margin: 0 auto;
@@ -281,6 +284,9 @@ ul.ul-notification-body li p{
     .nav-left-mobile{
         padding: 10px 0px;
         text-align: center;
+    }
+    .nav-left-mobile .app-logo{
+        width: 170px;
     }
     .inner-nav-mobile{
         padding: 0px;
