@@ -216,17 +216,47 @@ $(".confirm-box-close").click(function(e){
 
 
 
-
 // *********** DROP DOWN BOX ****************//
 $(window).click(function(e){
-    $('ul.ul-drop-down').hide()
-    if($(e.target).hasClass('drop-down-btn') || $(e.target).hasClass('ul-drop-down')){
-        e.preventDefault()
-        $(e.target).parent().children('ul.ul-drop-down').toggle()
+    $('.drop-down-body').hide()
+    if($(e.target).hasClass('drop-down-btn') || $(e.target).hasClass('drop-down-body')){
+        $(e.target).parent().children('.drop-down-body').show()
+    }
+    if($(e.target).hasClass('drop-down-header')){
+        $(e.target).parent().parent().children('.drop-down-body').show()
     }
     
 })
 
+
+
+
+
+
+// ************** MEMBERSHIP ANGLE DOWN **************//
+$(".member_angle_down").click(function(e){
+    e.preventDefault()
+    var container = $(this).parent().parent().children('.member-info-container')
+    var detail = $(container).children('ul.ul-member-body')
+
+    $(container).animate({
+        scrollTop: $(detail).height()
+    })
+})
+
+
+
+
+// ************** MEMBERSHIP ANGLE UP **************//
+$(".member_angle_up").click(function(e){
+    e.preventDefault()
+    var container = $(this).parent().parent().children('.member-info-container')
+    var detail = $(container).children('ul.ul-member-body')
+
+    $(container).animate({
+        scrollTop: 0
+    })
+})
 
     
         // end of document

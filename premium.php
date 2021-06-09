@@ -5,213 +5,267 @@
 
 
 
+
 <!-- MEMBERS START-->
 <section class="members-section">
      <div class="members-container">
         <div class="title-header">
             <h4>Lagos Match Maker <br> Members</h4>
-            <p> <a href="index.php">Home</a> - Premium Members</p>
+            <p> <a href="index.php">Home</a> - Premium members</p>
         </div>
         
         <div class="member-body"><!-- member body start -->
             <div class="top-members-body">
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
-                        <div class="member-inner-div"> 
+                        <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/27.png" alt=""></a>
-                                    <i class="fa fa-circle"></i>
+                                    <a href="profile.php"><img src="images/profile-image/1.jpg" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
                                    <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
                                    <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
                                 </ul>
+                                <div class="member-name">
+                                    <a href="#"><h4>Bamidele fatai</h4></a>
+                                </div>
                             </div>
-                            <div class="member-body-div">
-                                <ul class="ul-member-body">
-                                    <li>
-                                        <a href="#"><h4>Bamidele fatai</h4></a>
-                                    </li>
-                                    <li>Age: <span>26</span></li>
-                                    <li>Looking for <span>Man</span></li>
-                                    <li>Marital status: <span>Single</span></li>
-                                    <li>Date of birth: <span>2 march 2020</span></li>
-                                    <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
-                                </ul>
+                            <div class="member-body-div member-body-container">
+                                <div class="direction">
+                                    <a href="#" class="member_angle_up"><i class="fa fa-angle-up"></i></a>
+                                    <a href="#" class="member_angle_down"><i class="fa fa-angle-down"></i></a>
+                                </div>
+                                <div class="member-info-container">
+                                    <ul class="ul-member-body">
+                                        <li>Looking for <span>Woman</span></li>
+                                        <li>Genotype: <span>AA</span></li>
+                                        <li>Height: <span>6ft</span></li>
+                                        <li>Weight: <span>120kg</span></li>
+                                        <li>Religion: <span>Christain</span></li>
+                                        <li>Language: <span>English, Yoruba</span></li>
+                                        <li>Marital status: <span>Single</span></li>
+                                        <li>Location: <span>Lagos</span></li>
+                                        <li>Membership level: <span style="color:  rgb(196, 142, 44);">basic</span></li>
+                                        <li>Interest: <span>Cat, Dogs, Gaming</span></li>
+                                        <li>About: 
+                                            <span>
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe  type a person you are looking for
+                                                the type of a person you  looking for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div><!-- member end-->
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
-                        <div class="member-inner-div"> 
+                        <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/23.png" alt=""></a>
-                                    <i class="fa fa-circle active"></i>
+                                    <a href="profile.php"><img src="images/profile-image/2.jpg" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
                                    <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
                                    <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
                                 </ul>
+                                <div class="member-name">
+                                    <a href="#"><h4>Bola fatai</h4></a>
+                                </div>
                             </div>
-                            <div class="member-body-div">
-                                <ul class="ul-member-body">
-                                    <li>
-                                        <a href="#"><h4>Bamidele fatai</h4></a>
-                                    </li>
-                                    <li>Age: <span>26</span></li>
-                                    <li>Looking for <span>Man</span></li>
-                                    <li>Marital status: <span>Single</span></li>
-                                    <li>Date of birth: <span>2 march 2020</span></li>
-                                    <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
-                                </ul>
+                            <div class="member-body-div member-body-container">
+                                <div class="direction">
+                                    <a href="#" class="member_angle_up"><i class="fa fa-angle-up"></i></a>
+                                    <a href="#" class="member_angle_down"><i class="fa fa-angle-down"></i></a>
+                                </div>
+                                <div class="member-info-container">
+                                    <ul class="ul-member-body">
+                                        <li>Looking for <span>Woman</span></li>
+                                        <li>Genotype: <span>AA</span></li>
+                                        <li>Height: <span>6ft</span></li>
+                                        <li>Weight: <span>120kg</span></li>
+                                        <li>Religion: <span>Christain</span></li>
+                                        <li>Language: <span>English, Yoruba</span></li>
+                                        <li>Marital status: <span>Single</span></li>
+                                        <li>Location: <span>Lagos</span></li>
+                                        <li>Membership level: <span style="color:  rgb(196, 142, 44);">basic</span></li>
+                                        <li>Interest: <span>Cat, Dogs, Gaming</span></li>
+                                        <li>About: 
+                                            <span>
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe  type a person you are looking for
+                                                the type of a person you  looking for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe  type a person you are looking for
+                                                the type of a person you  looking for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div><!-- member end-->
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
-                        <div class="member-inner-div"> 
+                        <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/21.jpeg" alt=""></a>
-                                    <i class="fa fa-circle active"></i>
+                                    <a href="profile.php"><img src="images/avatar/11.jpg" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
                                    <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
                                    <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
                                 </ul>
+                                <div class="member-name">
+                                    <a href="#"><h4>Chika anonza</h4></a>
+                                </div>
                             </div>
-                            <div class="member-body-div">
-                                <ul class="ul-member-body">
-                                    <li>
-                                        <a href="#"><h4>Bamidele fatai</h4></a>
-                                    </li>
-                                    <li>Age: <span>26</span></li>
-                                    <li>Looking for <span>Man</span></li>
-                                    <li>Marital status: <span>Single</span></li>
-                                    <li>Date of birth: <span>2 march 2020</span></li>
-                                    <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
-                                </ul>
+                            <div class="member-body-div member-body-container">
+                                <div class="direction">
+                                    <a href="#" class="member_angle_up"><i class="fa fa-angle-up"></i></a>
+                                    <a href="#" class="member_angle_down"><i class="fa fa-angle-down"></i></a>
+                                </div>
+                                <div class="member-info-container">
+                                    <ul class="ul-member-body">
+                                        <li>Looking for <span>Woman</span></li>
+                                        <li>Genotype: <span>AA</span></li>
+                                        <li>Height: <span>6ft</span></li>
+                                        <li>Weight: <span>120kg</span></li>
+                                        <li>Religion: <span>Christain</span></li>
+                                        <li>Language: <span>English, Yoruba</span></li>
+                                        <li>Marital status: <span>Single</span></li>
+                                        <li>Location: <span>Lagos</span></li>
+                                        <li>Membership level: <span style="color:  rgb(196, 142, 44);">basic</span></li>
+                                        <li>Interest: <span>Cat, Dogs, Gaming</span></li>
+                                        <li>About: 
+                                            <span>
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe  type a person you are looking for
+                                                the type of a person you  looking for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div><!-- member end-->
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
-                        <div class="member-inner-div"> 
+                        <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/9.jpg" alt=""></a>
-                                    <i class="fa fa-circle"></i>
+                                    <a href="profile.php"><img src="images/avatar/2.jpg" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
                                    <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
                                    <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
                                 </ul>
+                                <div class="member-name">
+                                    <a href="#"><h4>Chizoba ekene</h4></a>
+                                </div>
                             </div>
-                            <div class="member-body-div">
-                                <ul class="ul-member-body">
-                                    <li>
-                                        <a href="#"><h4>Bamidele fatai</h4></a>
-                                    </li>
-                                    <li>Age: <span>26</span></li>
-                                    <li>Looking for <span>Man</span></li>
-                                    <li>Marital status: <span>Single</span></li>
-                                    <li>Date of birth: <span>2 march 2020</span></li>
-                                    <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
-                                </ul>
+                            <div class="member-body-div member-body-container">
+                                <div class="direction">
+                                    <a href="#" class="member_angle_up"><i class="fa fa-angle-up"></i></a>
+                                    <a href="#" class="member_angle_down"><i class="fa fa-angle-down"></i></a>
+                                </div>
+                                <div class="member-info-container">
+                                    <ul class="ul-member-body">
+                                        <li>Looking for <span>Woman</span></li>
+                                        <li>Genotype: <span>AA</span></li>
+                                        <li>Height: <span>6ft</span></li>
+                                        <li>Weight: <span>120kg</span></li>
+                                        <li>Religion: <span>Christain</span></li>
+                                        <li>Language: <span>English, Yoruba</span></li>
+                                        <li>Marital status: <span>Single</span></li>
+                                        <li>Location: <span>Lagos</span></li>
+                                        <li>Membership level: <span style="color:  rgb(196, 142, 44);">basic</span></li>
+                                        <li>Interest: <span>Cat, Dogs, Gaming</span></li>
+                                        <li>About: 
+                                            <span>
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe  type a person you are looking for
+                                                the type of a person you  looking for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe  type a person you are looking for
+                                                the type of a person you  looking for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div><!-- member end-->
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
-                        <div class="member-inner-div"> 
+                        <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/15.jpg" alt=""></a>
-                                    <i class="fa fa-circle"></i>
+                                    <a href="profile.php"><img src="images/avatar/10.jpg" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
                                    <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
                                    <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
                                 </ul>
-                            </div>
-                            <div class="member-body-div">
-                                <ul class="ul-member-body">
-                                    <li>
-                                        <a href="#"><h4>Bamidele fatai</h4></a>
-                                    </li>
-                                    <li>Age: <span>26</span></li>
-                                    <li>Looking for <span>Man</span></li>
-                                    <li>Marital status: <span>Single</span></li>
-                                    <li>Date of birth: <span>2 march 2020</span></li>
-                                    <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><!-- member end-->
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
-                        <div class="member-inner-div"> 
-                            <div class="member-img">
-                                <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/6.jpg" alt=""></a>
-                                    <i class="fa fa-circle active"></i>
+                                <div class="member-name">
+                                    <a href="#"><h4>Bamidele fatai</h4></a>
                                 </div>
-                                <ul class="ul-member-anchor">
-                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
-                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
-                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
-                                </ul>
                             </div>
-                            <div class="member-body-div">
-                                <ul class="ul-member-body">
-                                    <li>
-                                        <a href="#"><h4>Bamidele fatai</h4></a>
-                                    </li>
-                                    <li>Age: <span>26</span></li>
-                                    <li>Looking for <span>Man</span></li>
-                                    <li>Marital status: <span>Single</span></li>
-                                    <li>Date of birth: <span>2 march 2020</span></li>
-                                    <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><!-- member end-->
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><!-- member start-->
-                        <div class="member-inner-div"> 
-                            <div class="member-img">
-                                <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/18.jpg" alt=""></a>
-                                    <i class="fa fa-circle"></i>
+                            <div class="member-body-div member-body-container">
+                                <div class="direction">
+                                    <a href="#" class="member_angle_up"><i class="fa fa-angle-up"></i></a>
+                                    <a href="#" class="member_angle_down"><i class="fa fa-angle-down"></i></a>
                                 </div>
-                                <ul class="ul-member-anchor">
-                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
-                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
-                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="member-body-div">
-                                <ul class="ul-member-body">
-                                    <li>
-                                        <a href="#"><h4>Bamidele fatai</h4></a>
-                                    </li>
-                                    <li>Age: <span>26</span></li>
-                                    <li>Looking for <span>Man</span></li>
-                                    <li>Marital status: <span>Single</span></li>
-                                    <li>Date of birth: <span>2 march 2020</span></li>
-                                    <li>Location: <span>ikeja | Lagos</span></li>
-                                    <li>Membership level: <span style="color:  rgb(196, 142, 44);">premium</span></li>
-                                </ul>
+                                <div class="member-info-container">
+                                    <ul class="ul-member-body">
+                                        <li>Looking for <span>Woman</span></li>
+                                        <li>Genotype: <span>AA</span></li>
+                                        <li>Height: <span>6ft</span></li>
+                                        <li>Weight: <span>120kg</span></li>
+                                        <li>Religion: <span>Christain</span></li>
+                                        <li>Language: <span>English, Yoruba</span></li>
+                                        <li>Marital status: <span>Single</span></li>
+                                        <li>Location: <span>Lagos</span></li>
+                                        <li>Membership level: <span style="color:  rgb(196, 142, 44);">basic</span></li>
+                                        <li>Interest: <span>Cat, Dogs, Gaming</span></li>
+                                        <li>About: 
+                                            <span>
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                                Describe  type a person you are looking for
+                                                the type of a person you  looking for
+                                                Describe the type of a person you are looking for
+                                                Describe type of a person you are  for
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div><!-- member end-->
+                  
+                    
                 </div>
                 <div class="join-us-btn top-members-btn">
                     <a href="#" data-modal="#member_search_form_modal" class="mr-2"><i class="fa fa-search"></i> Search</a>
@@ -226,8 +280,6 @@
 <!-- MEMBERS END-->
 
  
-
-
 
 
 

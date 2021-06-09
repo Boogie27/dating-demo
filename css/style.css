@@ -57,6 +57,7 @@ a {
 /* ********** EMPTY PAGE ************ */
 .empty-page p{
     color: #fff;
+    margin: 0px;
     text-align: center;
 }
 /* ********** BUTTONS ************ */
@@ -128,7 +129,7 @@ button:focus{
 }
 
 .nav-content{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 ul.ul-nav-right li{
@@ -167,11 +168,18 @@ ul li a.nav-signup{
     background-color: rgb(196, 142, 44);
 }
 ul li a.nav-signup:hover{
-    color: rgb(196, 142, 44);
+    color: #fff;
 }
 ul.nav-right-small{
     text-align: right;
     padding: 20px 0px;
+}
+ul.nav-right-small li{
+    width: 50px;
+    display: inline-block;
+}
+ul.nav-right-small li .notification-icon i{
+    font-size: 19px;
 }
 ul.nav-right-small li a{
     color: rgb(196, 142, 44);
@@ -183,19 +191,83 @@ ul.nav-right-small li a{
 .inner-nav-mobile h4{
     color: rgb(196, 142, 44);
 }
+/* *********** NOTIFICATION ************** */
+.notification-drop-down{
+    z-index: 20;
+    position: relative;
+}
+.notification-drop-down ul.ul-notification-body{
+    top: 30px;
+    right: 0px;
+    z-index: 20;
+    width: 350px;
+    display: none;
+    padding: 10px 0px;
+    text-align: left;
+    border-radius: 2px;
+    position: absolute;
+    background-color: rgb(34, 34, 34);
+    box-shadow: 2px 2px 6px 2px rgb(8, 8, 8);
+}
+
+ul.ul-notification-body li{
+    width: 100%;
+    font-size: 11px;
+    margin: 0px;
+    border-top: 1px solid rgb(68, 68, 68);
+}
+ul.ul-notification-body li:hover{
+    background-color: rgb(58, 58, 58);
+}
+ul.ul-notification-body h4{
+    padding: 10px 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+ul.ul-notification-body li h5{
+    font-size: 13px;
+}
+ul.ul-notification-body li{
+    padding: 7px 5px;
+}
+ul.ul-notification-body li a{
+    text-decoration: none
+}
+ul.ul-notification-body li h5, ul.ul-notification-body li p{
+    margin: 0px;
+}
+ul.ul-notification-body li p{
+    font-size: 11px;
+    color: rgb(204, 204, 204);
+}
+.notification-icon{
+    margin: 0px 15px;
+    position: relative;
+}
+.notification-icon .fa-bell{
+    font-size: 15px;
+}
+.notification-icon span{
+    top: -5px;
+    font-size: 8px;
+    color: #fff;
+    position: absolute;
+}
+.notification-drop-down i{
+    font-size: 18px;
+    color: rgb(196, 142, 44);
+}
 @media only screen and (max-width: 1125px){
     .nav-content{
-        width: 90%;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 992px){
     .nav-content{
         width: 100%;
     }
-}
-@media only screen and (max-width: 767px){
     .nav-inner{
-       display: none;
+        display: none;
     }
     .inner-nav-mobile{
         display: flex;
@@ -203,7 +275,67 @@ ul.nav-right-small li a{
         align-items: center;
         justify-content: space-between;
     }
-    
+    .navigation{
+        padding: 10px;
+    }
+    .nav-left-mobile{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .inner-nav-mobile{
+        padding: 0px;
+    }
+    .nav-right-mobile{
+        width: 70%;
+    }
+    ul.nav-right-small{
+        display: flex;
+        padding: 10px 0px;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 767px){
+    .notification-drop-down{
+        position: static;
+    }
+    .notification-drop-down ul.ul-notification-body{
+        top: 70px;
+        right: inherit;
+        left: 0px;
+        width: 100%;
+        display: none;
+    }
+    ul.ul-notification-body h4{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 567px){
+    .navigation{
+        padding: 0px;
+    }
+    .nav-left-mobile{
+        color: #333;
+        padding: 10px 0px;
+        text-align: center;
+        background-color: rgb(196, 142, 44);
+    }
+    .nav-left-mobile h4{
+        color: #333;
+    }
+    .inner-nav-mobile{
+        display: block;
+        padding: 0px;
+    }
+    .nav-right-mobile{
+        width: 100%;
+        background-color: rgb(31, 31, 31);
+    }
+    ul.nav-right-small{
+        display: flex;
+        text-align: center;
+        padding: 10px 0px;
+        justify-content: space-between;
+    }
 }
 /* ********* DROP DOWN *********** */
 .drop-down{
@@ -1206,7 +1338,7 @@ ul.ul-footer-links li a i{
     width: 200px;
     height: 220px;
     position: relative;
-    background-color: #ccc;
+    background-color: #fff;
     border: 2px solid rgb(196, 142, 44);
 }
 .profile-img a.p-img-upload-btn{
@@ -1243,6 +1375,11 @@ ul.ul-footer-links li a i{
     bottom: 10px;
     left: 50px;
 }
+
+
+
+
+
 .profile-banner-body ul li{
     margin-left: 20px;
     display: inline-block;
@@ -1252,6 +1389,15 @@ ul.ul-footer-links li a i{
     font-size: 12px;
     text-decoration: none;
     transition: color 0.2s ease;
+}
+li.profile-status{
+    font-size: 12px;
+}
+li.profile-status span{
+    color: rgb(250, 34, 34);
+}
+li.profile-status span.active{
+    color: rgb(57, 236, 57);
 }
 .profile-banner-body ul li a:hover{
     color: rgb(196, 142, 44);
@@ -1263,7 +1409,36 @@ ul.ul-footer-links li a i{
 }
 .profile-container .profile-bottom{
     height: 50px;
+    display: flex;
+    align-items: center;
     background-color: rgb(37, 37, 37);
+}
+.action-like-btn{
+    width: 100%;
+    padding: 0px 10px;
+    text-align: right;
+}
+.action-like-btn a{
+    padding: 6px 15px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease;
+    background-color: rgb(196, 142, 44);
+}
+.action-like-btn a.accept{
+    color:  rgb(196, 142, 44);
+    background-color: #fff;
+}
+.action-like-btn a.accept:hover{
+    border: 1px solid rgb(196, 142, 44);
+}
+.action-like-btn a.decline:hover{
+    border: 1px solid  #fff;
+}
+.mobile-like-btn{
+    display: none;
 }
 .p-option-container{
     width: 100%;
@@ -1350,6 +1525,13 @@ ul.ul-p-option-body li a:hover{
         position: fixed;
         bottom: 0px;
         width: 100%;
+    }
+    .mobile-like-btn{
+        display: block;
+    }
+    .action-like-btn{
+        margin: 10px 0px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 567px){
@@ -1502,7 +1684,7 @@ ul.ul-profile-detail li p.detail-about-p{
     }
 }
 .you-may-like{
-    margin-bottom: 15px;
+    margin: 60px 0px 15px 0px;
     border-radius: 6px;
     background-color: rgb(37, 37, 37);
 }
@@ -1512,8 +1694,14 @@ ul.ul-profile-detail li p.detail-about-p{
     color: rgb(196, 142, 44);
     border-bottom: 1px solid rgb(24, 24, 24);
 }
+.you-may-like .title-header h4 span a{
+    color: rgb(196, 142, 44);
+    text-decoration: none;
+}
 .you-may-like-body{
-    padding: 20px 0px;
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
 }
 .you-may-like .like-content{
     text-align: center;
@@ -1526,6 +1714,20 @@ ul.ul-profile-detail li p.detail-about-p{
     background-color: rgb(24, 24, 24);
     border: 1px solid rgb(24, 24, 24);
 }
+.like-content ul li{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+.like-content ul li p{
+    font-size: 10px;
+    color: rgb(196, 142, 44);
+}
+.like-content ul li a{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 12px;
+ }
 @media only screen and (max-width: 398px){
     .you-may-like{
         padding: 0px 10px;
@@ -1564,32 +1766,53 @@ ul.ul-profile-detail li p.detail-about-p{
     padding: 0px 20px;
 }
 .member-inner-div{
-    padding: 10px;
+    padding: 10px ;
     margin-bottom: 50px;
     border-radius: 6px;
     background-color: rgb(32, 32, 32);
-    box-shadow: 2px 2px 6px 2px rgb(8, 8, 8);
+    border: 1px solid transparent;
+    /* box-shadow: 2px 2px 6px 2px rgb(8, 8, 8); */
+}
+.member-inner-div:hover{
+    transform: scale(1.01);
+    border: 1px solid rgb(46, 46, 45);
 }
 .member-img-img{
-    width: 100%;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 10px;
     position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid rgb(196, 142, 44);
 }
 .member-img-img img{
     width: 100%;
-    height: 100%;
-    border-radius: 3px;
+    background-color: #fff;
 }
-.member-img-img i{
-    top: 0px;
-    right: 0px;
-    font-size: 9px;
-    color: rgb(224, 79, 79);
+.member-body-div{
+    color: #fff;
+    position: relative;
+    padding: 10px 0px 20px 0px;
+}
+.member-body-div .direction i{
+    right: -5px;
+    z-index: 20;
+    cursor: pointer;
+    padding: 3px 7px;
+    border-radius: 4px;
+    color: rgb(78, 78, 78);
     position: absolute;
 }
-.member-img-img i.active{
-    color: rgb(140, 245, 108);
+.member-body-div .direction i.fa-angle-down{
+    bottom: 0px;
+}
+.member-body-div .direction i:hover{
+    color: #fff;
+    background-color: rgb(78, 78, 78);
 }
 ul.ul-member-anchor{
     padding: 10px 0px;
@@ -1609,18 +1832,30 @@ ul.ul-member-anchor li a{
 ul.ul-member-anchor li a:hover{
     background-color: rgba(248, 179, 50, 0.137);
 }
-.member-body-div{
-    color: #fff;
-    padding: 10px 0px 20px 0px;
-}
-ul.ul-member-body{
+.member-name{
     text-align: center;
+}
+.member-name a{
+    color: #ccc;
+    text-decoration: none;
+}
+.member-name a h4{
+    font-size: 19px;
+}
+.member-info-container{
+    height: 250px;
+    overflow-y: scroll;
+}
+.member-info-container::-webkit-scrollbar{
+    width: 0px;
 }
 ul.ul-member-body li h4{
     font-size: 19px;
+    text-align: center;
 }
 ul.ul-member-body li{
     font-size: 13px;
+    margin: 5px 0px;
     color: rgb(209, 209, 209);
 }
 ul.ul-member-body li a{
@@ -1633,14 +1868,10 @@ ul.ul-member-body li span{
 }
 
 @media only screen and (max-width: 1125px){
-    .member-img-img{
-        height: 320px;
-    }
+    
 }
 @media only screen and (max-width: 992px){
-    .member-img-img{
-        height: 350px;
-    }
+    
 }
 @media only screen and (max-width: 767px){
     .top-members-body{
@@ -1655,10 +1886,6 @@ ul.ul-member-body li span{
 @media only screen and (max-width: 567px){
     .member-inner-div{
         width: 100%;
-    }
-    .member-img-img{
-        width: 100%;
-        height: 100%;
     }
 }
 
@@ -1695,12 +1922,16 @@ ul.ul-member-body li span{
     /* margin-bottom: 50px; */
     padding-bottom: 50px;
 }
+.message-header{
+    margin-top: 150px;
+}
 .message-container .title-header a{
     color: #fff;
     text-decoration: none;
 }
 .message-content{
     padding: 20px 0px;
+    margin-bottom: 30px;
     border-radius: 6px;
     background-color: rgb(37, 37, 37);
 }
@@ -1729,7 +1960,7 @@ ul.ul-member-body li span{
     color:rgb(173, 172, 172);
     background-color:  rgb(19, 19, 19);
 }
-a.message-inner-content{
+.message-inner-content{
     display: flex;
     color: #fff;
     padding: 0px 10px;
@@ -1738,9 +1969,7 @@ a.message-inner-content{
     text-decoration: none;
     transition: background-color 0.2s ease;
 }
-a.message-inner-content:hover{
-    background-color: rgb(39, 39, 39);
-}
+
 .message-img{
     width: 70px;
     height: 70px; 
@@ -1763,6 +1992,8 @@ a.message-inner-content:hover{
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid rgb(196, 142, 44);
 }
 ul.ul-message{
     width: 90%;
@@ -1771,6 +2002,14 @@ ul.ul-message{
     position: relative;
     border-bottom: 1px solid rgb(61, 61, 61);
 }
+ul.ul-message h5{
+    position: relative;
+}
+ul.ul-message h5 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
 ul.ul-message h5 span{
     font-size: 11px;
     color: rgb(131, 131, 131);
@@ -1778,18 +2017,46 @@ ul.ul-message h5 span{
 ul.ul-message li h5{
     font-size: 14px;
 }
+
 ul.ul-message li p{
     bottom: 0px;
     width: 100%;
+    cursor: pointer;
     font-size: 11px;
+    overflow: hidden;
     position: absolute;
     color: rgb(131, 131, 131);
 }
+ul.ul-message li p a{
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+}
+ul.ul-message li p a.unread-message{
+    color: rgb(196, 142, 44);
+}
+
 ul.ul-message li p span{
     padding: 1px 3px;
     border-radius: 5px;
     color: rgb(196, 142, 44);
     background-color:  rgba(248, 161, 0, 0.39);
+}
+ul.ul-message .notification-drop-down{
+    top: -20px;
+    height: 0px;
+    text-align: right;
+    position: relative;
+}
+ul.ul-message .notification-drop-down i{
+    margin: 0px;
+    padding: 0px;
+}
+ul.ul-message ul.ul-notification-body{
+    z-index: 20;
+    top: 0px;
+}
+ul.ul-message ul.ul-notification-body li{
+    border: none;
 }
 @media only screen and (max-width: 1125px){
     .message-form {
@@ -1811,6 +2078,12 @@ ul.ul-message li p span{
         width: 80%;
     }
     .message-content{
+        width: 100%;
+    }
+    ul.ul-message ul.ul-notification-body{
+        top: 0px;
+        right: inherit;
+        left: 0px;
         width: 100%;
     }
 }
@@ -2015,19 +2288,32 @@ ul.ul-sub-body li a{
 ul.ul-sub-body li a:hover{
     background-color: rgb(214, 140, 3);
 }
+.subscritpion-alert{
+    width: 40%;
+    margin: 0 auto;
+}
 @media only screen and (max-width: 1125px){
     .subscription-content {
         width: 100%;
+    }
+    .subscritpion-alert{
+        width: 50%;
     }
 }
 @media only screen and (max-width: 992px){
     .subscription-content {
         width: 90%;
     }
+    .subscritpion-alert{
+        width: 60%;
+    }
 }
 @media only screen and (max-width: 767px){
     .subscription-content {
         width: 100%;
+    }
+    .subscritpion-alert{
+        width: 80%;
     }
 }
 @media only screen and (max-width: 567px){
@@ -2036,6 +2322,9 @@ ul.ul-sub-body li a:hover{
     }
     ul.ul-sub-body{
         padding: 0px 10px;
+    }
+    .subscritpion-alert{
+        width: 90%;
     }
 }
 
@@ -2123,7 +2412,7 @@ button.confirm-btn:hover{
 .profile-match-main{
     top: 0px;
     width: 100%;
-    z-index: 10;
+    z-index: 20;
     height: 100vh;
     position: fixed;
     display: table;
@@ -2147,7 +2436,7 @@ button.confirm-btn:hover{
 .profile-match-container img.match-banner-img{
     width: 100%;
     height: 420px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 .profile-match-container .title-header{
     top: 0px;
@@ -2161,10 +2450,16 @@ button.confirm-btn:hover{
 }
 ul.ul-profile-match{
     padding: 30px 0px;
+    margin: 0px;
 }
 ul.ul-profile-match li.profile-one{
     display: flex;
     justify-content: center;
+}
+ul.ul-profile-match li.match-heart-icon{
+    top: 10px;
+    padding: 5px 0px;
+    position: relative;
 }
 ul.ul-profile-match li.profile-one img{
     width: 100px;
@@ -2172,6 +2467,7 @@ ul.ul-profile-match li.profile-one img{
     margin: 0px 15px;
     border-radius: 50%;
     border: 2px solid #fff;
+    background-color: #333;
 }
 ul.profile-one-content, ul.profile-two-content{
     top: 15px;
@@ -2182,6 +2478,7 @@ ul.profile-one-content li{
 }
 ul.profile-one-content li h4, ul.profile-two-content li h4{
     font-size: 17px;
+    margin: 0px;
 }
 ul.ul-profile-match li i.fa-heart{
     font-size: 30px;
@@ -2330,10 +2627,10 @@ ul.ul-chat-message li img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid rgb(182, 0, 0);
+    border: 2px solid rgb(250, 53, 53);
 }
 ul.ul-chat-message li img.active{
-    border: 2px solid rgb(2, 182, 2);
+    border: 2px solid rgb(80, 246, 80);
 }
 ul.ul-chat-message li h5{
     font-size: 13px;
@@ -2414,10 +2711,10 @@ ul.ul-chat-profile-img li.chat-profile-right{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid rgb(182, 0, 0);
+    border: 2px solid rgb(250, 53, 53);
 }
 .chat-head-left ul li img.active{
-    border: 2px solid rgb(2, 182, 2);
+    border: 2px solid rgb(80, 246, 80); 
 }
 .chat-head-left ul li h5{
     font-size: 12px;
@@ -2495,6 +2792,11 @@ ul.ul-chat-files li a{
     overflow-y: auto;
     /* border: 1px solid #ccc; */
 }
+.inner-chat-body{
+    padding-top: 10px;
+    overflow: auto;
+    /* border: 1px solid #ccc; */
+}
 .right-chattig::-webkit-scrollbar{
     width: 0px;
 }
@@ -2508,7 +2810,7 @@ ul.ul-left-chatting li.chatting-p{
     padding: 5px;
     font-size: 12px;
     position: relative;
-    border-radius: 3px;
+    border-radius: 10px 10px 10px 0px;
     display: inline-block;
     background-color:  rgb(196, 142, 44);
 }
@@ -2519,16 +2821,7 @@ ul.ul-left-chatting li.chatting-p p{
 ul.ul-left-chatting li.chatting-p span{
     float: right;
 }
-ul.ul-left-chatting li.chatting-p::before{
-    content: "";
-    position: absolute;
-    bottom: -7px;
-    left: 0px;
-    border: 10px solid  rgb(196, 142, 44);
-    border-top: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-}
+
 ul.ul-left-chatting .chat-option-p{
     width: 100%;
     height: 0px;
@@ -2541,7 +2834,6 @@ ul.ul-left-chatting .chat-option-p i{
     padding: 10px;
     z-index: 10;
     position: absolute;
-    /* background-color: #ccc; */
 }
 ul.ul-left-chatting .chat-option-p ul.ul-option-body{
     top: 5px;
@@ -2583,6 +2875,7 @@ ul.ul-left-chatting li.chatting-p-img{
 ul.ul-left-chatting li.chatting-p-img .chat-pic img{
     width: 200px;
     height: auto;
+    cursor: pointer;
 }
 ul.ul-left-chatting span{
     color: rgb(231, 231, 231);
@@ -2625,25 +2918,14 @@ ul.ul-right-chatting li.chatting-p{
     padding: 5px;
     font-size: 12px;
     position: relative;
-    border-radius: 3px;
+    border-radius: 10px 10px 0px 10px;
     display: inline-block;
     background-color:  rgb(75, 74, 74);
-}
-ul.ul-right-chatting li.chatting-p::before{
-    content: "";
-    position: absolute;
-    bottom: -7px;
-    right: 0px;
-    border: 10px solid   rgb(75, 74, 74);
-    border-top: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-bottom: 10px solid transparent;
 }
 ul.ul-right-chatting .chat-option-p{
     width: 100%;
     height: 0px;
     text-align: left;
-    /* border: 1px solid #fff; */
 }
 ul.ul-right-chatting li.chatting-p .chat-option-p i{
     top: -8px;
@@ -2685,6 +2967,7 @@ ul.ul-right-chatting li.chatting-p-img{
 ul.ul-right-chatting li.chatting-p-img .chat-pic img{
     width: 200px;
     height: auto;
+    cursor: pointer;
 }
 ul.ul-right-chatting li.chatting-p-img i{
     top: -8px;
@@ -2734,7 +3017,7 @@ ul.ul-right-chatting li.chat-time{
         z-index: 20;
     }
     ul.ul-left-chatting .chat-option-p ul.ul-option-body{
-        right: -10px;
+        right: -6px;
         z-index: 20;
         display: none;
     }
@@ -2909,26 +3192,227 @@ ul.ul-right-chatting li.chat-time{
 }
 
 
+/* *************** SUCCESS SECTION ************* */
+.main-success-container{
+    width: 100%;
+    height: 100vh;
+    display: table;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+}
+.success-container{
+    display: table-cell;
+    vertical-align: middle;
+}
+.success-container li{
+    margin: 10px 0px;
+}
+.success-container li p{
+    margin: 0px;
+}
+.success-container li a{
+    font-size: 12px;
+    padding: 10px 20px;
+    color: rgb(196, 142, 44);
+    text-decoration: none;
+    background-color: #fff;
+}
+.success-container li.success-icon i{
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: rgb(196, 142, 44);
+    border: 6px solid rgb(196, 142, 44);
+}
+.success-container ul li{
+    color: rgb(196, 142, 44);
+}
+
+@media only screen and (max-width: 398px){
+    .success-container li.success-icon i{
+        padding: 20px;
+        font-size: 40px;
+    }
+    .success-container li p{
+        font-size: 12px;
+    }
+}
 
 
+/* ************** FRIENDS SECTION ************* */
+.firends-main-body{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    border-radius: 6px;
+    background-color: rgb(37, 37, 37);
+}
+.friends-inner-content{
+    display: flex;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+ul.ul-friends{
+    width: 90%;
+    margin-left: 10px;
+    position: relative;
+}
+ul.ul-friends li{
+    margin: 10px 0px;
+}
+ul.ul-friends li h5{
+    color: #ccc;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+}
+ul.ul-friends li a{
+    text-decoration: none;
+}
+ul.ul-friends li p{
+    color: rgb(168, 168, 168);
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+}
+ul.ul-friends li a.f-send-msg{
+    color: #fff;
+    font-size: 11px;
+    padding: 5px 30px;
+    text-decoration: none;
+    background-color: rgb(196, 142, 44);
+}
+ul.ul-friends li a.f-send-msg:hover{
+    background-color: rgb(201, 137, 20);
+}
+ul.ul-friends li{
+    width: 100%;
+}
+ul.ul-friends li label{
+    color: #fff;
+    float: right;
+    font-size: 11px;
+    padding: 5px 30px;
+    background-color: rgb(78, 77, 76);
+}
+@media only screen and (max-width: 1125px){
+    .firends-main-body{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .firends-main-body{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 567px){
+    .firends-main-body{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    ul.ul-friends li a.f-send-msg, ul.ul-friends li label{
+        padding: 5px 10px;
+    }
+    ul.ul-friends li h5{
+        font-size: 13px;
+    }
+    ul.ul-friends li{
+        margin: 0px 0px;
+    }
+    ul.ul-friends li.friends-bottom{
+        margin-top: 10px;
+    }
+    ul.ul-friends li.friends-bottom a{
+        font-size: 10px;
+    }
+    ul.ul-friends li.friends-bottom label{
+        top: 1px;
+        position: relative;
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* **************** HOW IT WORKS *************** */
+.how-section{
+    background-color: rgb(19, 19, 19);
+}
+.how-it-wrks-container{
+    padding: 100px 0px;
+}
+.how-it-work-content{
+    height: 500px;
+    text-align: center;
+    padding: 50px 0px;
+}
+ul.ul-how-it-work{
+    color: #fff;
+}
+ul.ul-how-it-work li.hiw-img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid rgb(196, 142, 44);
+}
+ul.ul-how-it-work li.hiw-img img{
+    width: 100%;
+    background-color: #fff;
+}
+ul.ul-how-it-work li h4{
+    font-size: 19px;
+}
+ul.ul-how-it-work li p{
+    font-size: 12px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding: 0px 10px;
+    color: rgb(196, 142, 44);
+}
+ul.ul-how-it-work li{
+    margin: 15px 0px;
+}
+ul.ul-how-it-work li.hiw-button a{
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid rgb(250, 207, 127);
+    background-color: rgb(196, 142, 44);
+}
+ul.ul-how-it-work li.hiw-button a:hover{
+    color: rgb(196, 142, 44);
+    background-color: #fff
+}
+@media only screen and (max-width: 1125px){
+    ul.ul-how-it-work li p{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 992px){
+    ul.ul-how-it-work li p{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 767px){
+    ul.ul-how-it-work li p{
+        width: 100%;
+    }
+    .how-it-wrks-container .title-header h3{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 567px){
+    ul.ul-how-it-work li.hiw-img{
+        width: 150px;
+        height: 150px;
+    }
+}
 
 
 
