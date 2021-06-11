@@ -20,7 +20,7 @@
                         <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/profile-image/1.jpg" alt=""></a>
+                                    <a href="profile.php"><img src="images/avatar/23.png" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
@@ -38,7 +38,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>
@@ -73,7 +72,7 @@
                         <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/profile-image/2.jpg" alt=""></a>
+                                    <a href="profile.php"><img src="images/avatar/17.jpg" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
@@ -91,7 +90,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>
@@ -120,7 +118,7 @@
                         <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/11.jpg" alt=""></a>
+                                    <a href="profile.php"><img src="images/avatar/24.png" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
@@ -138,7 +136,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>
@@ -185,7 +182,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>
@@ -214,7 +210,7 @@
                         <div class="member-inner-div">
                             <div class="member-img">
                                 <div class="member-img-img">
-                                    <a href="profile.php"><img src="images/avatar/10.jpg" alt=""></a>
+                                    <a href="profile.php"><img src="images/avatar/27.png" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
@@ -232,7 +228,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>

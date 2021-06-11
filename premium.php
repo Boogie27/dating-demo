@@ -39,7 +39,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>
@@ -86,7 +85,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>
@@ -139,7 +137,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>
@@ -186,7 +183,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>
@@ -239,7 +235,6 @@
                                 </div>
                                 <div class="member-info-container">
                                     <ul class="ul-member-body">
-                                        <li>Looking for <span>Woman</span></li>
                                         <li>Genotype: <span>AA</span></li>
                                         <li>Height: <span>6ft</span></li>
                                         <li>Weight: <span>120kg</span></li>

@@ -37,6 +37,13 @@
                                 </a>
                             </div>
                         </li>
+                        <!-- <li>
+                            <div class="notification-drop-down">
+                                <a href="profile.php">
+                                    <i class="fa fa-user notification-icon notification-users-icon"></i>
+                                </a>
+                            </div>
+                        </li> -->
                         <li>
                             <div class="notification-drop-down">
                                <i class="far fa-bell drop-down-btn notification-icon">
@@ -74,10 +81,8 @@
                     <ul class="nav-right-small">
                         <li>
                             <div class="notification-drop-down">
-                                <a href="#">
-                                    <i class="fa fa-users notification-icon">
-                                        <span class="badge bg-danger">1</span>
-                                    </i>
+                                <a href="profile.php">
+                                    <i class="fa fa-user notification-icon notification-users-icon"></i>
                                 </a>
                             </div>
                         </li>
@@ -92,10 +97,18 @@
                         </li>
                         <li>
                             <div class="notification-drop-down">
-                                <a href="#" class="drop-down-btn notification-icon">
-                                    <i class="far fa-bell"></i>
-                                    <span class="badge bg-danger">1</span>
+                                <a href="friends.php">
+                                    <i class="fa fa-users notification-icon">
+                                        <span class="badge bg-danger">1</span>
+                                    </i>
                                 </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="notification-drop-down">
+                               <i class="far fa-bell drop-down-btn notification-icon">
+                                    <span class="badge bg-danger">1</span>
+                                </i>
                                 <ul class="drop-down-body ul-notification-body">
                                     <h4 class="drop-down-header">Notification</h4>
                                     <li>

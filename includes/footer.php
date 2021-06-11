@@ -53,6 +53,7 @@
                                </div>
                                <div class="form-group">
                                   <button type="button" class="news-letter-btn"><i class="far fa-envelope"></i> Send Messages</button>
+                                  <a href="unsubscribe-newsletter.php" class="float-right">Unsubscribe</a>
                                </div>
                            </form>
                         </li>
@@ -66,6 +67,7 @@
                         <li><a href="#"><i class="fa fa-phone"></i> Phone: 08023124563</a></li>
                         <li><a href="#"><i class="far fa-envelope"></i> Email: lagosmatchmaker@gmail.com</a></li>
                         <li><a href="#"><i class="fa fa-map-marker-alt"></i> 8/9 James Afred way, Victorial Island, Lagos Nigeria.</a></li>
+                        <li><a href="contact.php"><i class="fa fa-pen"></i>Contact us</a></li>
                     </ul>
                 </div>
             </div><!-- links end-->

@@ -7,7 +7,10 @@
 <!-- PROFILE START-->
 <section class="profile-section">
     <div class="profile-container">
-        <div class="profile-banner" style="background-image: url(images/banner/1.jpg)">
+    <div class="profile-banner" id="profile_banner_div" style="background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.288)) , url('images/banner/1.jpg');">
+            <div class="banner-icon">
+               <a href="#" id="profile_banner_open"><i class="fa fa-camera"></i></a>
+            </div>
             <div class="profile-inner-banner">
                 <div class="profile-img">
                     <img src="images/avatar/15.jpg" id="profile_image_img" alt="">
@@ -22,6 +25,7 @@
                         <li><a href="chat.php"><i class="far fa-comment"></i> Message</a></li>
                         <li><a href="#" id="video_call_open_btn"><i class="fa fa-video"></i></a></li>
                         <li><a href="#" id="profile_like_member"><i class="fa fa-heart"></i> Like</a></li>
+                        <li><a href="settings.php"><i class="fa fa-cog"></i> Settings</a></li>
                     </ul>
                 </div>
             </div>
@@ -244,58 +248,15 @@
                         </form>
                     </div>
                 </div>
-                <div class="you-may-like"><!-- you may like start-->
-                    <div class="title-header"><h4>You May Like</h4></div>
-                    <div class="you-may-like-body">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/19.jpg" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/18.jpg" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/17.jpg" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/6.jpg" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/7.jpg" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/20.png" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/3.jpg" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/1.jpg" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
-                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4 like-expand"><!-- like start-->
-                                <div class="like-content">
-                                   <a href="#"><img src="images/avatar/2.jpg" alt=""></a>
-                                </div>
-                            </div><!-- like end-->
+                <div class="profile-detail-right"> <!-- report start-->
+                    <div class="title-header"><h4>Report Members</h4></div>
+                    <div class="profile-right-form">
+                        <p>We use your feeback to help us learn when something's not right.</p>
+                        <div class="text-right">
+                            <a href="#" id="report_modal_open_btn" class="report-btn">Report</a>
                         </div>
                     </div>
-                </div><!-- you may like end-->
+                </div><!-- report end-->
             </div><!-- profile detail right end-->
         </div>
     </div>
@@ -387,13 +348,15 @@
 
 
 
+
 <?php  include('profile/profile-image-modal-popup.php') ?>
+<?php  include('profile/profile-banner-modal-popup.php') ?>
 <?php  include('profile/profile-about-modal-popup.php') ?>
 <?php  include('profile/profile-lifestyle-modal-popup.php') ?>
 <?php  include('profile/profile-looking-for-modal-popup.php') ?>
 <?php  include('profile/profile-physical-info-modal-popup.php') ?>
 <?php  include('profile/profile-detail-info-modal-popup.php') ?>
-
+<?php  include('profile/profile-report-member-modal-popup.php') ?>
 
 
 
@@ -524,6 +487,17 @@ $(window).click(function(e){
     if($(e.target).hasClass('dark-theme-modal-popup')){
         $('.modal-popup-container').hide()
     }
+})
+
+
+
+
+
+
+// ********* REPORT MEMBER MODAL OPEN ***********//
+$("#report_modal_open_btn").click(function(e){
+    e.preventDefault()
+    $("#report_member_section").show()
 })
 
 
