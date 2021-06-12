@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6-col-sm-6 col-6">
                     <div class="form-group text-right">
-                       <a href="#" class="text-danger">Forgot password?</a>
+                       <a href="forgot-password.php" class="text-danger">Forgot password?</a>
                     </div>
                 </div>
                 <div class="col-xl-12 mt-4">

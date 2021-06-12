@@ -12,7 +12,7 @@
             <li><a href="friends.php">Friends</a></li>
             <li><a href="subscription.php">Subscribe</a></li>
             <li><a href="how-it-works.php">How it works</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li><a href="login.php">Login</a></li>
             <li><a href="register.php">Register</a></li>
         </ul>
