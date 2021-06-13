@@ -1999,6 +1999,13 @@ ul.ul-member-anchor li a{
 ul.ul-member-anchor li a:hover{
     background-color: rgba(248, 179, 50, 0.137);
 }
+ul.ul-member-anchor li a.cancle-btn, ul.ul-member-anchor li a.accept-btn{
+    font-size: 12px;
+    text-decoration: none;
+ }
+ ul.ul-member-anchor li a.accept-btn{
+    color: #fff;
+ }
 .member-name{
     text-align: center;
 }
@@ -2579,7 +2586,7 @@ button.confirm-btn:hover{
 .profile-match-main{
     top: 0px;
     width: 100%;
-    z-index: 20;
+    z-index: 50;
     height: 100vh;
     position: fixed;
     display: table;

@@ -24,9 +24,9 @@
                                     <a href="profile.php"><img src="images/profile-image/1.jpg" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
-                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
-                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
-                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                    <li><a href="#" class="cancle-btn">Cancle</a></li>
+                                    <li><a href="#" class="profile_like_member"><i class="far fa-heart text-danger"></i></a></li>
+                                    <li><a href="#" class="accept-btn">Accept</a></li>
                                 </ul>
                                 <div class="member-name">
                                     <a href="#"><h4>Bamidele fatai</h4></a>
@@ -71,7 +71,7 @@
                                 </div>
                                 <ul class="ul-member-anchor">
                                    <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
-                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart text-success"></i></a></li>
                                    <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
                                 </ul>
                                 <div class="member-name">
@@ -122,9 +122,7 @@
                                     <a href="profile.php"><img src="images/avatar/11.jpg" alt=""></a>
                                 </div>
                                 <ul class="ul-member-anchor">
-                                   <li><a href="chat.php"><i class="far fa-envelope"></i></a></li>
-                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart"></i></a></li>
-                                   <li><a href="#" class="video_call_open_btn"><i class="fa fa-video"></i></a></li>
+                                   <li><a href="#" class="profile_like_member"><i class="far fa-heart text-danger"></i></a></li>
                                 </ul>
                                 <div class="member-name">
                                     <a href="#"><h4>Chika anonza</h4></a>
