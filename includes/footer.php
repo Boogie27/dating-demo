@@ -64,8 +64,8 @@
                 <div class="footer-content">
                     <ul class="ul-footer-links">
                         <li><h4>Contact Links</h4></li>
-                        <li><a href="#"><i class="fa fa-phone"></i> Phone: 08023124563</a></li>
-                        <li><a href="#"><i class="far fa-envelope"></i> Email: lagosmatchmaker@gmail.com</a></li>
+                        <li><a href="tel:08023124563"><i class="fa fa-phone"></i> Phone: 08023124563</a></li>
+                        <li><a href="mailto:lagosmatchmaker@gmail.com"><i class="far fa-envelope"></i> Email: lagosmatchmaker@gmail.com</a></li>
                         <li><a href="#"><i class="fa fa-map-marker-alt"></i> 8/9 James Afred way, Victorial Island, Lagos Nigeria.</a></li>
                         <li><a href="contact.php"><i class="fa fa-pen"></i>Contact us</a></li>
                     </ul>
